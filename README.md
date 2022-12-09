@@ -1,3 +1,3 @@
 # Finus
-Digital tuning system
+Afinador digital
 
