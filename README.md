@@ -1,1 +1,3 @@
-# Tuner
+# Finus
+Digital tuning system
+
