@@ -1,0 +1,81 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3d01249a-dadc-4e51-82ed-4fc02f54490c)
+
+  (paper "A4")
+
+  (title_block
+    (title "Finus - Digital Tuner")
+    (date "2022-12-14")
+    (rev "1.0")
+    (company "Beseta")
+    (comment 1 "ATTiny Version")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 19.05) (size 39.37 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f)
+    (property "Sheet name" "Power Section" (id 0) (at 25.4 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 25.4 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 91.44 19.05) (size 45.72 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid fdf15cae-d825-4243-b3f6-2a6ba2e340df)
+    (property "Sheet name" "Microprocessor" (id 0) (at 91.44 18.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "microprocessor.kicad_sch" (id 1) (at 91.44 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f" (page "2"))
+    (path "/fdf15cae-d825-4243-b3f6-2a6ba2e340df" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/fdf15cae-d825-4243-b3f6-2a6ba2e340df/a4bab986-e955-4578-bdaa-05743a9ec0bb"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/fdf15cae-d825-4243-b3f6-2a6ba2e340df/10fdc27a-290c-4094-8726-221d0e073eb6"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f/718c9281-8d38-41cc-bebd-519b55473e4d"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f/2f728b6c-c4be-4135-bbb3-4af7fe662f85"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f/d08e3992-82f9-43b1-914c-3d257d9c6d07"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fdf15cae-d825-4243-b3f6-2a6ba2e340df/3dd9adf4-b499-43bc-a954-c813dbed464f"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f/8a0ed083-a907-454c-8f12-c23c26342313"
+      (reference "J1") (unit 1) (value "DC Jack") (footprint "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal")
+    )
+    (path "/518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f/7bca9692-fb46-4caf-b413-5df76a6faee8"
+      (reference "R1") (unit 1) (value "1.2K") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f/24839910-5146-4f58-bb6d-13609292da66"
+      (reference "R2") (unit 1) (value "1.5K") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/fdf15cae-d825-4243-b3f6-2a6ba2e340df/ed37a4a0-99f9-43ba-bdf0-c60615329dd9"
+      (reference "U1") (unit 1) (value "ATtiny102-M") (footprint "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm")
+    )
+  )
+)
