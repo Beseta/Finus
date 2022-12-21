@@ -7,6 +7,7 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 float noteFreqs[6] = {77.78, 103.83, 138.59, 185.00, 233.08, 311.13 };
 char strings[6] = {'E', 'A', 'D', 'G', 'B', 'H'};
 byte rawData[LENGTH];
+// int rawData[LENGTH];
 int count;
 
 // Sample Frequency in kHz
@@ -71,8 +72,10 @@ void setup() {
 
 void loop() {
   if (count < LENGTH) {
+    // Serial.println(count);
     count++;
-    rawData[count] = analogRead(A0) >> 2;
+    // rawData[count] = analogRead(A0) >> 2;
+    rawData[count] = analogRead(A0);
   } else {
     sum = 0;
     pd_state = 0;

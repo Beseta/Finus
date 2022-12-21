@@ -416,12 +416,12 @@
       ""
     ],
     [
-      "518e9e7a-2794-4eab-bf6b-b2eba8bb2f4f",
-      "Power Section"
-    ],
-    [
       "fdf15cae-d825-4243-b3f6-2a6ba2e340df",
       "Microprocessor"
+    ],
+    [
+      "0b61b641-b8e4-496b-8026-457b1014ab6d",
+      "Instrument Input Section"
     ]
   ],
   "text_variables": {}
