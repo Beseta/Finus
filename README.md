@@ -8,7 +8,7 @@ The schematic was based on Anthony Kelly's design which can be found [here](http
 
 ## Software
 
-The basic code for the DSP was based on Amanda Ghassaei's [Arduino Frequency Detecion](https://www.instructables.com/Arduino-Frequency-Detection/). I modified several lines of code to accomodate the differences in our hardware implementation.
+The basic code for the DSP was based on Amanda Ghassaei's [Arduino Frequency Detection](https://www.instructables.com/Arduino-Frequency-Detection/). I modified several lines of code to consider the differences in our hardware implementation.
 
 ## Pictures
 
